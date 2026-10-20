@@ -219,7 +219,6 @@ class CPU {
    */
   jump(opcode, byte1, byte2) {
     this.pc = (byte2 << 8) | byte1;
-    return 'testttt';
   }
 
   tick() {
